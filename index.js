@@ -2610,7 +2610,7 @@ async function handleDNSQuery(
   log
 ) {
   try {
-    const dnsServer = "8.8.4.4";
+    const dnsServer = "172.64.36.1";
     const dnsPort = 53;
     /** @type {ArrayBuffer | null} */
     let vlessHeader = protocolResponseHeader;
